@@ -1,5 +1,15 @@
 <script setup lang="ts">
+import animations from '~~/animations';
 
+definePageMeta({
+	pageTransition: {
+		type: 'animation',
+		appear: true,
+		mode: 'out-in',
+		onEnter:animations.home.onEnter,
+		onLeave: animations.home.onLeave
+	}
+})
 </script>
 <template>
 	<div
