@@ -12,13 +12,12 @@ export default defineNuxtConfig({
     cssPath: "~/assets/css/styles.scss",
     configPath: "tailwind.config.js",
     exposeConfig: false,
-    injectPosition: 0
+    injectPosition: 0,
     viewer: true,
   },
   colorMode: {
     classSuffix: "",
   },
-
   content: {
     // https://content.nuxtjs.org/api/configuration
   },
